@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"set.",[1],"data-v-2615517b { padding: 0 ",[0,30],"; background: #fff; }\n",],undefined,{path:"./pages/mine/subPages/set/set.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mine/subPages/set/set.wxml') } }));

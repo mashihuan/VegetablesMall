@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"personalInfo.",[1],"data-v-35cd1f4f { height: ",[0,185],"; padding: ",[0,50]," ",[0,30],"; background: #63c753; }\n.",[1],"personalInfo .",[1],"list.",[1],"data-v-35cd1f4f { background: #fff; -webkit-border-radius: ",[0,10],"; border-radius: ",[0,10],"; padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/mine/subPages/personalInfo/personalInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mine/subPages/personalInfo/personalInfo.wxml') } }));

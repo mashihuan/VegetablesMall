@@ -1,0 +1,61 @@
+<import src="/pages/car/subPages/pay/children/order-address.vue.wxml" />
+<import src="/components/list-cell.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/click-button.vue.wxml" />
+<import src="/components/uni-popup/uni-popup.vue.wxml" />
+<import src="/components/pay-methods.vue.wxml" />
+<import src="/components/status-bar.vue.wxml" />
+<import src="/pages/home/index/children/home-search.vue.wxml" />
+<import src="/pages/home/index/children/home-carousel.vue.wxml" />
+<import src="/pages/home/index/children/home-grid.vue.wxml" />
+<import src="/pages/home/index/children/home-list.vue.wxml" />
+<import src="/components/input-cell.vue.wxml" />
+<import src="/components/home-item-title.vue.wxml" />
+<import src="/components/home-item-three.vue.wxml" />
+<import src="/pages/eat/index/children/eat-menu-list.vue.wxml" />
+<import src="/pages/car/index/children/car-list.vue.wxml" />
+<import src="/pages/car/index/children/car-pay.vue.wxml" />
+<import src="/pages/mine/index/children/mine-info.vue.wxml" />
+<import src="/pages/mine/index/children/mine-order.vue.wxml" />
+<import src="/components/signIn-success.vue.wxml" />
+<import src="/pages/home/subPages/mealDetail/children/meal-detail-desc.vue.wxml" />
+<import src="/pages/home/subPages/mealDetail/children/meal-detail-comment.vue.wxml" />
+<import src="/pages/eat/subPages/menuDetail/children/menu-detail-desc.vue.wxml" />
+<import src="/pages/eat/subPages/menuDetail/children/menu-detail-food.vue.wxml" />
+<import src="/pages/eat/subPages/menuDetail/children/menu-detail-step.vue.wxml" />
+<import src="/components/success.vue.wxml" />
+<import src="/components/mine-score.vue.wxml" />
+<import src="/components/uParse/src/wxParse.vue.wxml" />
+<import src="/pages/mine/subPages/about/about.vue.wxml" />
+<import src="/pages/mine/subPages/order/children/goods-info.vue.wxml" />
+<import src="/components/uni-rate/uni-rate.vue.wxml" />
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate0.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/header-search.vue.wxml" />
+<import src="/pages/home/index/children/home-item.vue.wxml" />
+<import src="/pages/car/index/children/car-item.vue.wxml" />
+<import src="/components/detail-swiper.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate1.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseImg.vue.wxml" />
+<import src="/pages/eat/subPages/menuDetail/children/menu-detail-item.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate2.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate3.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate4.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate5.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate6.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate7.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate8.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate9.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate10.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate11.vue.wxml" />
+
+<template name="data-v-257a8a00-default-3be2027a-5"><view class="_view data-v-257a8a00 pay-methods"><template bindpayTypeClick="handleProxy" data-eventid="{{'3be2027a-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3be2027a-4'],$root}}" is="89699f9c"></template></view></template>
+
+<template name="data-v-257a8a00-default-3be2027a-7"><view class="_view data-v-257a8a00 coupon-list"><view class="_view data-v-257a8a00 coupon-popup" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'3be2027a-7-'+index}}" data-comkey="{{$k}}" wx:for="{{carInfo.discount}}" wx:for-index="index" wx:for-item="item"><view class="_view data-v-257a8a00">{{item.content}}</view><view class="_view data-v-257a8a00 coupon-radio {{[item.checked ? 'checked' : '']}}"></view></view><view class="_view data-v-257a8a00 coupon-popup" bindtap="handleProxy" data-eventid="{{'3be2027a-8'}}" data-comkey="{{$k}}"><view class="_view data-v-257a8a00">不使用优惠</view><view class="_view data-v-257a8a00 coupon-radio {{[noCoupon ? 'checked' : '']}}"></view></view><template text="确定" data="{{...$root['0'], ...$root[$kk+'3be2027a-6'],$root}}" is="31a49f12"></template></view></template>
+
+<template name="data-v-9d755f7c-default-23875e75-2"><view class="_view data-v-9d755f7c pay-methods"><template bindpayTypeClick="handleProxy" data-eventid="{{'23875e75-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'23875e75-1'],$root}}" is="89699f9c"></template></view></template>
+

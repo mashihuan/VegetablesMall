@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "home-item": "/pages/home/index/children/home-item"
+  },
+  "component": true
+}

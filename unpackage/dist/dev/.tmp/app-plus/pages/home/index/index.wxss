@@ -1,0 +1,471 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.status-bar.data-v-5641f9de {
+  height: var(--status-bar-height);
+  background: #60c450;
+}
+.status-bar .top_view.data-v-5641f9de {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    height: var(--status-bar-height);
+    width: 100%;
+    background: #60c450;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search-input.data-v-410ba9c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 60rpx;
+  padding-left: 40rpx;
+  background: #fff;
+  border-radius: 100rpx;
+}
+.search-input .search-icon.data-v-410ba9c2 {
+    width: 30rpx;
+    height: 30rpx;
+}
+.search-input input.data-v-410ba9c2 {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0 30rpx 0 10rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search-wrap.data-v-20d38f88 {
+  position: fixed;
+  top: var(--status-bar-height);
+  left: 0;
+  width: 100%;
+  background: #60c450;
+  z-index: 99;
+}
+.search-wrap .search-bar.data-v-20d38f88 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 4rpx 25rpx 0 30rpx;
+}
+.search-wrap .search-bar .search-address.data-v-20d38f88 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      min-width: 80rpx;
+      margin-right: 16rpx;
+}
+.search-wrap .search-bar .search-address .address-icon.data-v-20d38f88 {
+        width: 28rpx;
+        height: 40rpx;
+        margin-bottom: 8rpx;
+}
+.search-wrap .search-bar .search-address .address-text.data-v-20d38f88 {
+        font-size: 20rpx;
+        color: #fff;
+}
+.search-wrap .delivery-info.data-v-20d38f88 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 24rpx 25rpx 18rpx 30rpx;
+}
+.search-wrap .delivery-info > view.data-v-20d38f88 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.search-wrap .delivery-info > view image.data-v-20d38f88 {
+        width: 26rpx;
+        height: 26rpx;
+        margin-right: 10rpx;
+}
+.search-wrap .delivery-info > view .iconfont.data-v-20d38f88 {
+        margin-right: 10rpx;
+        font-size: 36rpx;
+        color: #fff;
+}
+.search-wrap .delivery-info > view text.data-v-20d38f88 {
+        font-size: 20rpx;
+        color: #fff;
+}
+.search-wrap .delivery-info view:nth-of-type(1) image.data-v-20d38f88 {
+      width: 34rpx;
+      height: 24rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.carousel.data-v-4f098580 {
+  padding: 0 20rpx;
+}
+.carousel .swiper image.data-v-4f098580 {
+    display: block;
+    width: 100%;
+    height: 360rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.grid.data-v-0d1be826 {
+  padding-top: 140rpx;
+  background: #f4f4f4;
+}
+.grid .grid-lsit.data-v-0d1be826 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    justify-cotnent: space-between;
+    padding: 0 10rpx;
+}
+.grid .grid-lsit .grid-item.data-v-0d1be826 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 30rpx;
+      width: 20%;
+}
+.grid .grid-lsit .grid-item image.data-v-0d1be826 {
+        width: 100rpx;
+        height: 100rpx;
+        border-radius: 50%;
+        margin-bottom: 22rpx;
+}
+.grid .grid-lsit .grid-item text.data-v-0d1be826 {
+        color: #424242;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home-item.data-v-40562973 {
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+  background: #fff;
+}
+.home-item .item-banner.data-v-40562973 {
+    width: 100%;
+    height: 300rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.coupon-popup.data-v-4ee80c00 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3);
+}
+.coupon-popup .coupon-mask.data-v-4ee80c00 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -220rpx;
+    margin-left: -270rpx;
+    border-radius: 20rpx;
+    background: #fff;
+}
+.coupon-popup .coupon-mask .close-icon.data-v-4ee80c00 {
+      float: right;
+      font-size: 50rpx;
+      color: #f8b413;
+}
+.coupon-popup .coupon-icon.data-v-4ee80c00 {
+    position: absolute;
+    top: -76rpx;
+    left: 50%;
+    margin-left: -104rpx;
+    width: 208rpx;
+    height: 152rpx;
+}
+.coupon-popup .coupon-mention.data-v-4ee80c00 {
+    margin-top: 100rpx;
+    margin-bottom: 20rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #464646;
+}
+.coupon-popup .center-box.data-v-4ee80c00 {
+    position: relative;
+    width: 540rpx;
+    height: 440rpx;
+}
+.coupon-popup .center-box .couponList.data-v-4ee80c00 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.coupon-popup .center-box .couponList .couponItem.data-v-4ee80c00 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 492rpx;
+        height: 150rpx;
+        padding: 0 60rpx 0 30rpx;
+        margin-bottom: 20rpx;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAe0AAACWCAYAAADzJtBNAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjU2NTExRTY0NjI3ODExRTlBRjIwRjFENUU3NDVBMzcyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjU2NTExRTY1NjI3ODExRTlBRjIwRjFENUU3NDVBMzcyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTY1MTFFNjI2Mjc4MTFFOUFGMjBGMUQ1RTc0NUEzNzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTY1MTFFNjM2Mjc4MTFFOUFGMjBGMUQ1RTc0NUEzNzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz54zmmHAAANmElEQVR42uzd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);
+        background-size: 100% 100%;
+}
+.coupon-popup .center-box .couponList .couponItem view.data-v-4ee80c00 {
+          color: #fefefc;
+}
+.coupon-popup .center-box .couponList .couponItem .coupon-range.data-v-4ee80c00 {
+          font-size: 30rpx;
+}
+.coupon-popup .center-box .couponList .couponItem .coupon-btn.data-v-4ee80c00 {
+          font-size: 30rpx;
+}
+.header.data-v-4ee80c00 {
+  height: 336rpx;
+  background: #60c450;
+}
+.header .carousel-wrap.data-v-4ee80c00 {
+    padding-top: 166rpx;
+}
+

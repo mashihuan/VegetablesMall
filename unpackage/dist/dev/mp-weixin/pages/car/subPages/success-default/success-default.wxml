@@ -1,0 +1,1 @@
+<view class="data-v-599efd70"><success vue-id="1" info="{{info}}" class="data-v-599efd70" bind:__l="__l"></success><click-button vue-id="2" text="确定" buttonClick="{{buttonClick}}" class="data-v-599efd70" bind:__l="__l"></click-button></view>

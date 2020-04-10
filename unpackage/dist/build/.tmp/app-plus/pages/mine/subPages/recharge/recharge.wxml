@@ -1,0 +1,2 @@
+<import src="./recharge.vue.wxml" />
+    <template is="53ea2c37" data="{{ ...$root['0'], $root }}"/>

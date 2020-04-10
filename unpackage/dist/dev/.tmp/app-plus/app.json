@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/success/index",
+    "pages/fail/index",
+    "pages/login/login/login",
+    "pages/login/register/register",
+    "pages/login/forgetPassword/forgetPassword",
+    "pages/login/verifyPhone/verifyPhone",
+    "pages/classify/index/index",
+    "pages/eat/index/index",
+    "pages/car/index/index",
+    "pages/mine/index/index",
+    "pages/home/subPages/mealDetail/mealDetail",
+    "pages/home/subPages/previewImage/previewImage",
+    "pages/eat/subPages/menuDetail/menuDetail",
+    "pages/car/subPages/pay/pay",
+    "pages/car/subPages/success-default/success-default",
+    "pages/mine/subPages/personalInfo/personalInfo",
+    "pages/mine/subPages/changePhone/changePhone",
+    "pages/mine/subPages/changePhone-new/changePhone-new",
+    "pages/mine/subPages/member/member",
+    "pages/mine/subPages/customer-service/customer-service",
+    "pages/mine/subPages/set/set",
+    "pages/mine/subPages/about/about",
+    "pages/mine/subPages/score/score",
+    "pages/mine/subPages/wallet/wallet",
+    "pages/mine/subPages/recharge/recharge",
+    "pages/mine/subPages/message/message",
+    "pages/mine/subPages/messageDetail/messageDetail",
+    "pages/mine/subPages/invite/invite",
+    "pages/mine/subPages/feedback/feedback",
+    "pages/mine/subPages/coupon/coupon",
+    "pages/mine/subPages/addressList/addressList",
+    "pages/mine/subPages/addAddress/addAddress",
+    "pages/mine/subPages/order/order",
+    "pages/mine/subPages/evaluate/evaluate",
+    "pages/mine/subPages/after-sale/after-sale",
+    "pages/mine/subPages/apply/apply"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#63c753",
+    "backgroundColor": "#f4f4f4"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "#45b934",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home/shouye-icon1-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon1-1@2x.png"
+      },
+      {
+        "pagePath": "pages/classify/index/index",
+        "text": "分类",
+        "iconPath": "static/images/home/shouye-icon2-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon2-1@2x.png"
+      },
+      {
+        "pagePath": "pages/eat/index/index",
+        "text": "吃什么",
+        "iconPath": "static/images/home/shouye-icon3-2@2x.png",
+        "selectedIconPath": "static/images/home/shouye-icon3-1@2x.png"
+      },
+      {
+        "pagePath": "pages/car/index/index",
+        "text": "购物车",
+        "iconPath": "/static/images/home/shouye-icon4-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon4-1@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/index/index",
+        "text": "我的",
+        "iconPath": "static/images/home/shouye-icon5-2@2x.png",
+        "selectedIconPath": "static/images/home/shouye-icon5-1@2x.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "买菜帮",
+  "compilerVersion": "1.9.9"
+}

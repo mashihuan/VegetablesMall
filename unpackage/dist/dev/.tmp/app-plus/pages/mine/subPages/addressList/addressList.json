@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的收货地址",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "管理",
+        "fontSize": "14"
+      }
+    ]
+  }
+}

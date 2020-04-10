@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "评价",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "发布",
+        "fontSize": "14"
+      }
+    ]
+  }
+}

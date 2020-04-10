@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "菜谱详情",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf"
+      }
+    ]
+  }
+}

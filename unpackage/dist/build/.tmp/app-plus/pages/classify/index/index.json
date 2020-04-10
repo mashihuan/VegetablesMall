@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "分类",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "searchInput": {
+      "autoFocus": false,
+      "backgroundColor": "#ffffff",
+      "borderRadius": "30px",
+      "placeholder": "请输入"
+    }
+  }
+}

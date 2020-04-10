@@ -1,0 +1,1 @@
+<view class="success data-v-30c274d8"><image src="{{info.icon}}" class="data-v-30c274d8"></image><view class="data-v-30c274d8">{{info.text}}</view></view>

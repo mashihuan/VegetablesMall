@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "菜谱详情",
+  "usingComponents": {
+    "menu-detail-desc": "/pages/eat/subPages/menuDetail/children/menu-detail-desc",
+    "menu-detail-food": "/pages/eat/subPages/menuDetail/children/menu-detail-food",
+    "menu-detail-step": "/pages/eat/subPages/menuDetail/children/menu-detail-step"
+  }
+}

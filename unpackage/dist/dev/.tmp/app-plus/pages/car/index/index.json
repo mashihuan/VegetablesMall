@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "购物车",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "管理",
+        "fontSize": "14"
+      }
+    ]
+  }
+}

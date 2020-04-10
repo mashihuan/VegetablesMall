@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "积分",
+  "usingComponents": {
+    "home-item-title": "/components/home-item-title",
+    "score": "/pages/mine/subPages/about/about",
+    "mine-score": "/components/mine-score",
+    "sign-in-success": "/components/signIn-success"
+  }
+}

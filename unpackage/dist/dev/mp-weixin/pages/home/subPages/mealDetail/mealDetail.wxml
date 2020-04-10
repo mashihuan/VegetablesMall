@@ -1,0 +1,1 @@
+<view class="data-v-5c1d510b"><meal-detail-desc vue-id="1" colorArr="{{colorArr}}" previewImage="{{previewImage}}" addShopCar="{{addShopCar}}" detail="{{detail}}" class="data-v-5c1d510b" bind:__l="__l"></meal-detail-desc><meal-detail-comment vue-id="2" commentList="{{commentList}}" class="data-v-5c1d510b" bind:__l="__l"></meal-detail-comment></view>

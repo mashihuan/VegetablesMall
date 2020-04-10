@@ -1,0 +1,38 @@
+@mixin ellipsis {  /* 超出部分省略号 */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	// word-wrap: break-word;
+}
+
+.shareBtn {    /* 分享  加入购物车按钮 */
+	width: 150upx;
+	height: 44upx;
+	line-height: 44upx;
+	font-size: 20upx;
+	text-align: center;
+	border-radius: 40upx;
+	color: #fff;
+	background: $headerBar-color;
+}
+
+.nodata {              /* 没有更多占位图 */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 150upx;
+	view {
+		color: #999;
+	}
+	image {
+		width: 400upx;
+		height: 400upx;
+	}
+}
+
+@mixin fontStyle($size: 26upx, $color: #464646) { /* 字体样式 */
+	font-size: $size;
+	color: $color;
+	line-height: 1;
+}

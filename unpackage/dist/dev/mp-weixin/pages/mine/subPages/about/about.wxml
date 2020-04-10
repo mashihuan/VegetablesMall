@@ -1,0 +1,1 @@
+<view class="about data-v-0a50d0b3"><u-parse vue-id="1" content="{{this.$store.state.richText}}" class="data-v-0a50d0b3" bind:__l="__l"></u-parse></view>

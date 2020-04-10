@@ -1,0 +1,111 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/success/index",
+    "pages/fail/index",
+    "pages/login/login/login",
+    "pages/login/register/register",
+    "pages/login/forgetPassword/forgetPassword",
+    "pages/login/verifyPhone/verifyPhone",
+    "pages/classify/index/index",
+    "pages/eat/index/index",
+    "pages/car/index/index",
+    "pages/mine/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/home/subPages/",
+      "pages": [
+        "mealDetail/mealDetail",
+        "previewImage/previewImage"
+      ]
+    },
+    {
+      "root": "pages/eat/subPages/",
+      "pages": [
+        "menuDetail/menuDetail"
+      ]
+    },
+    {
+      "root": "pages/car/subPages/",
+      "pages": [
+        "pay/pay",
+        "success-default/success-default"
+      ]
+    },
+    {
+      "root": "pages/mine/subPages/",
+      "pages": [
+        "personalInfo/personalInfo",
+        "changePhone/changePhone",
+        "changePhone-new/changePhone-new",
+        "member/member",
+        "customer-service/customer-service",
+        "set/set",
+        "about/about",
+        "score/score",
+        "wallet/wallet",
+        "recharge/recharge",
+        "message/message",
+        "messageDetail/messageDetail",
+        "invite/invite",
+        "feedback/feedback",
+        "coupon/coupon",
+        "addressList/addressList",
+        "addAddress/addAddress",
+        "order/order",
+        "evaluate/evaluate",
+        "after-sale/after-sale",
+        "apply/apply"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#63c753",
+    "backgroundColor": "#f4f4f4"
+  },
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "#45b934",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home/shouye-icon1-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon1-1@2x.png"
+      },
+      {
+        "pagePath": "pages/classify/index/index",
+        "text": "分类",
+        "iconPath": "static/images/home/shouye-icon2-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon2-1@2x.png"
+      },
+      {
+        "pagePath": "pages/eat/index/index",
+        "text": "吃什么",
+        "iconPath": "static/images/home/shouye-icon3-2@2x.png",
+        "selectedIconPath": "static/images/home/shouye-icon3-1@2x.png"
+      },
+      {
+        "pagePath": "pages/car/index/index",
+        "text": "购物车",
+        "iconPath": "/static/images/home/shouye-icon4-2@2x.png",
+        "selectedIconPath": "/static/images/home/shouye-icon4-1@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/index/index",
+        "text": "我的",
+        "iconPath": "static/images/home/shouye-icon5-2@2x.png",
+        "selectedIconPath": "static/images/home/shouye-icon5-1@2x.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "usingComponents": {}
+}

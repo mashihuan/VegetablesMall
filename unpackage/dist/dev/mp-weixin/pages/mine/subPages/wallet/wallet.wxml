@@ -1,0 +1,1 @@
+<view class="data-v-6b487a12"><mine-score vue-id="1" title="钱包余额" number="{{balance}}" class="data-v-6b487a12" bind:__l="__l"></mine-score><view class="recharge data-v-6b487a12"><view data-event-opts="{{[['tap',[['recharge',['$event']]]]]}}" class="recharge-btn data-v-6b487a12" bindtap="__e">去充值</view></view></view>

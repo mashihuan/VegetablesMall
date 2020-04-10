@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"score-bottom.",[1],"data-v-07b020fc { margin-top: ",[0,130],"; background: #fff; }\n",],undefined,{path:"./pages/mine/subPages/score/score.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mine/subPages/score/score.wxml') } }));

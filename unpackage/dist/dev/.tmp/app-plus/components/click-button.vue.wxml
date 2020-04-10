@@ -1,0 +1,1 @@
+<template name="31a49f12"><view class="_view data-v-efcecaa0 btn-wrap {{[position ? 'position' : '']}}" style=" {{('margin-top:' + (marginTop + 'px') + ';')}}"><button class="_button data-v-efcecaa0 register-btn" bindtap="handleProxy" data-eventid="{{'31a49f12-0'}}" data-comkey="{{$k}}">{{text}}</button></view></template>

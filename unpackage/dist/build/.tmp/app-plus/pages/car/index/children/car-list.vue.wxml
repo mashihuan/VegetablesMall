@@ -1,0 +1,1 @@
+<import src="/pages/car/index/children/car-item.vue.wxml" /><template name="6af3d1b4"><view class="_view data-v-3fd80614 car-list"><template bindinput="handleProxy" data-eventid="{{'6af3d1b4-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'6af3d1b4-0'],$root}}" is="6af63cca"></template></view></template>

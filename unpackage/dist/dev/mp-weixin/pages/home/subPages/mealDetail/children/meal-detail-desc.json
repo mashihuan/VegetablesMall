@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "detail-swiper": "/components/detail-swiper"
+  },
+  "component": true
+}

@@ -1,0 +1,1 @@
+<view class="home-list data-v-b6a7af40"><home-item vue-id="1" addShopCar="{{addShopCar}}" section="{{section}}" goToDetail="{{goToDetail}}" class="data-v-b6a7af40" bind:__l="__l"></home-item></view>

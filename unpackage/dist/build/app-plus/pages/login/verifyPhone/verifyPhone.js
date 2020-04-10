@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"input-group.",[1],"data-v-0ebbf2fa { margin-bottom: ",[0,230],"; }\n",],undefined,{path:"./pages/login/verifyPhone/verifyPhone.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/verifyPhone/verifyPhone.wxml') } }));

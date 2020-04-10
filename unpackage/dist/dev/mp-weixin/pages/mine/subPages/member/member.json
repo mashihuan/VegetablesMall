@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "大会员",
+  "usingComponents": {
+    "pay-methods": "/components/pay-methods",
+    "click-button": "/components/click-button"
+  }
+}

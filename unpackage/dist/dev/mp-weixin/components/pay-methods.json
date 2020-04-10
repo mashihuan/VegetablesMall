@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "click-button": "/components/click-button"
+  },
+  "component": true
+}

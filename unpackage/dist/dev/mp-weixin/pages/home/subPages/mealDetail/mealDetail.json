@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "菜品详情",
+  "usingComponents": {
+    "meal-detail-desc": "/pages/home/subPages/mealDetail/children/meal-detail-desc",
+    "meal-detail-comment": "/pages/home/subPages/mealDetail/children/meal-detail-comment"
+  }
+}

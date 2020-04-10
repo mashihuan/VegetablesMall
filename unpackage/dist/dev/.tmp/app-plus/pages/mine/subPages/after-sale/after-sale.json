@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "售后",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "客服",
+        "fontSize": "14"
+      }
+    ]
+  }
+}

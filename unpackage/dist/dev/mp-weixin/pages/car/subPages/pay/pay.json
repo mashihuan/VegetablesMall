@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "order-address": "/pages/car/subPages/pay/children/order-address",
+    "list-cell": "/components/list-cell",
+    "pay-methods": "/components/pay-methods",
+    "click-button": "/components/click-button",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

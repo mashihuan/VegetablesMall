@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "menu-detail-item": "/pages/eat/subPages/menuDetail/children/menu-detail-item"
+  },
+  "component": true
+}

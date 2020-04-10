@@ -1,0 +1,54 @@
+<template>
+	<view class="wrap">
+		<image src="/static/images/home/dingdan-qrdd-shibai@2x.png"></image>
+		<text>{{newTitle}}</text>
+		<button type="primary" @tap="onConfirmEvent">确定</button>
+	</view>
+</template>
+
+<script>
+	export default {
+		props: {
+			title: {type: String, default: '支付失败'}
+		},
+		name: '',
+		data () {
+			return {
+				newTitle: this.title
+			}
+		},
+		onLoad (options) {
+			let that = this;
+			that.newTitle = options.title || '支付失败';
+			uni.setNavigationBarTitle({
+					title: that.newTitle || '支付失败'
+			});
+		},
+		methods: {
+			onConfirmEvent () {
+				uni.navigateBack()
+			}
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+.wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 260upx;
+	image {
+		width: 200upx;
+		height: 200upx;
+	}
+	text {
+		font-size: 34upx;
+		margin: 30upx 0 190upx 0;
+	}
+	button {
+		width: 600upx;
+		background: #65c756;
+	}
+}
+</style>

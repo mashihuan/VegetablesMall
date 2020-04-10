@@ -1,0 +1,1 @@
+<view class="search-input data-v-2bf91d7d"><image class="search-icon data-v-2bf91d7d" src="/static/images/home/shouye-icon-ss@2x.png"></image><input type="text" disabled placeholder-style="color: #b2b2b2" placeholder="请输入" data-event-opts="{{[['tap',[['searchInputClick',['$event']]]]]}}" bindtap="__e" class="data-v-2bf91d7d"/></view>

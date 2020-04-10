@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "售后",
+  "usingComponents": {
+    "goods-info": "/pages/mine/subPages/order/children/goods-info"
+  }
+}

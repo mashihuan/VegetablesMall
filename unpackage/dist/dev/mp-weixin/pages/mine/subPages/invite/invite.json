@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "邀请有礼",
+  "usingComponents": {
+    "home-item-title": "/components/home-item-title",
+    "activity-rule": "/pages/mine/subPages/about/about",
+    "click-button": "/components/click-button"
+  }
+}

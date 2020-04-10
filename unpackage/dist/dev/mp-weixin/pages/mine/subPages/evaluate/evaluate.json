@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "评价",
+  "usingComponents": {
+    "goods-info": "/pages/mine/subPages/order/children/goods-info",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

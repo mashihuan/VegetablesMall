@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "status-bar": "/components/status-bar",
+    "home-search": "/pages/home/index/children/home-search",
+    "home-carousel": "/pages/home/index/children/home-carousel",
+    "home-grid": "/pages/home/index/children/home-grid",
+    "home-list": "/pages/home/index/children/home-list",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/mine/subPages/about/about"],{a0c9:function(e,a,o){"use strict";o("4b50");var u=t(o("b0ce")),n=t(o("e249"));function t(e){return e&&e.__esModule?e:{default:e}}Page((0,u.default)(n.default))}},[["a0c9","common/runtime","common/vendor"]]]);

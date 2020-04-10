@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "24",
+        "redDot": true
+      }
+    ]
+  }
+}

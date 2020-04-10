@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.img-wrap.data-v-6b61da96 {
+  position: relative;
+  margin: 30rpx;
+  border: 1rpx dotted #cfcfcf;
+}
+.img-wrap .close-icon.data-v-6b61da96 {
+    position: absolute;
+    top: -45rpx;
+    right: -25rpx;
+    font-size: 50rpx;
+}
+.apply.data-v-6b61da96 {
+  min-height: 100%;
+  background: #fff;
+}
+.apply .apply-content.data-v-6b61da96 {
+    padding: 0 20rpx;
+}
+.apply .apply-content textarea.data-v-6b61da96 {
+      width: 100%;
+      height: 240rpx;
+      background: #f4f4f4;
+      padding: 17rpx;
+      font-size: 28rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.apply .apply-content .title.data-v-6b61da96 {
+      font-size: 30rpx;
+      padding-top: 40rpx;
+}
+.apply .apply-content .imageList.data-v-6b61da96 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+}
+.apply .apply-content .imageList image.data-v-6b61da96 {
+        width: 140rpx;
+        height: 140rpx;
+        display: block;
+}
+.apply .apply-content .imageList .add-btn.data-v-6b61da96 {
+        position: relative;
+        width: 140rpx;
+        height: 140rpx;
+        margin: 30rpx;
+        border: 1rpx solid #cfcfcf;
+}
+.apply .apply-content .imageList .add-btn.data-v-6b61da96:after, .apply .apply-content .imageList .add-btn.data-v-6b61da96:before {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          content: '';
+}
+.apply .apply-content .imageList .add-btn.data-v-6b61da96:before {
+          width: 60rpx;
+          height: 4rpx;
+          background: #cfcfcf;
+          margin-top: -2rpx;
+          margin-left: -30rpx;
+}
+.apply .apply-content .imageList .add-btn.data-v-6b61da96:after {
+          width: 4rpx;
+          height: 60rpx;
+          background: #cfcfcf;
+          margin-top: -30rpx;
+          margin-left: -2rpx;
+}
+.apply .apply-content .apply-personal.data-v-6b61da96 {
+      border-top: 20rpx solid #f4f4f4;
+      margin: 0 -20rpx;
+      padding: 30rpx 20rpx;
+}
+.apply .apply-content .apply-personal .item.data-v-6b61da96 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 25rpx;
+}
+.apply .apply-content .apply-personal .item input.data-v-6b61da96 {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+}
+

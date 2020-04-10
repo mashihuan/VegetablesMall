@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "u-parse": "/components/uParse/src/wxParse"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="wrap data-v-7169a51a"><image src="/static/images/home/dingdan-qrdd-shibai@2x.png" class="data-v-7169a51a"></image><text class="data-v-7169a51a">{{newTitle}}</text><button type="primary" data-event-opts="{{[['tap',[['onConfirmEvent',['$event']]]]]}}" bindtap="__e" class="data-v-7169a51a">确定</button></view>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent"
+  }
+}

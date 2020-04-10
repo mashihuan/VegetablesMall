@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "吃什么",
+  "usingComponents": {
+    "home-item-title": "/components/home-item-title",
+    "home-item-three": "/components/home-item-three",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "eat-menu-list": "/pages/eat/index/children/eat-menu-list"
+  }
+}

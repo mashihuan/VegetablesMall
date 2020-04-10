@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "绑定手机号",
+  "usingComponents": {
+    "input-cell": "/components/input-cell",
+    "click-button": "/components/click-button"
+  }
+}

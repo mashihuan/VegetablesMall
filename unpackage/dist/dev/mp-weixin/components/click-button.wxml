@@ -1,0 +1,1 @@
+<view class="{{['btn-wrap data-v-563a36dc',(position)?'position':'']}}" style="{{'margin-top:'+(marginTop+'px')+';'}}"><button data-event-opts="{{[['tap',[['buttonClick',['$event']]]]]}}" class="register-btn data-v-563a36dc" bindtap="__e">{{text}}</button></view>

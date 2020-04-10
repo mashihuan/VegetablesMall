@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "菜品详情",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent"
+  }
+}

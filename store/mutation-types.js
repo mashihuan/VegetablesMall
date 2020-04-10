@@ -1,0 +1,1 @@
+export const RICH_TEXT = 'rich_text';   // 邀请有礼 设置关于 积分规则 富文本

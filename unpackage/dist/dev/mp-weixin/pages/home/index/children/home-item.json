@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "home-item-title": "/components/home-item-title",
+    "home-item-three": "/components/home-item-three"
+  },
+  "component": true
+}

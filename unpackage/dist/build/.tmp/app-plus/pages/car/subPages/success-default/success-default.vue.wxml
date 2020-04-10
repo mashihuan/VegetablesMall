@@ -1,0 +1,1 @@
+<import src="/components/success.vue.wxml" /><import src="/components/click-button.vue.wxml" /><template name="5abcf798"><view class="_view data-v-0c6f6fe7"><template data="{{...$root['0'], ...$root[$kk+'5abcf798-0'],$root}}" is="739659b0"></template><template text="确定" data="{{...$root['0'], ...$root[$kk+'5abcf798-1'],$root}}" is="31a49f12"></template></view></template>

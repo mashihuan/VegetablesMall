@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "mine-info": "/pages/mine/index/children/mine-info",
+    "mine-order": "/pages/mine/index/children/mine-order",
+    "sign-in-success": "/components/signIn-success"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "third-login": "/components/third-login",
+    "input-cell": "/components/input-cell"
+  }
+}

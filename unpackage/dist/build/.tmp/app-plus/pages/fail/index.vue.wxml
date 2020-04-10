@@ -1,0 +1,1 @@
+<template name="32098e6a"><view class="_view data-v-1988503c wrap"><image src="/static/images/home/dingdan-qrdd-shibai@2x.png" class="_image data-v-1988503c"></image><text class="_text data-v-1988503c">{{newTitle}}</text><button type="primary" bindtap="handleProxy" data-eventid="{{'32098e6a-0'}}" data-comkey="{{$k}}" class="_button data-v-1988503c">确定</button></view></template>

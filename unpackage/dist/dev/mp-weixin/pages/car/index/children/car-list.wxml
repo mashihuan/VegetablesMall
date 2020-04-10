@@ -1,0 +1,1 @@
+<view class="car-list data-v-93cb1eb4"><car-item vue-id="1" goToDetail="{{goToDetail}}" carList="{{carList}}" changeNumber="{{changeNumber}}" singleClick="{{singleClick}}" data-event-opts="{{[['^input',[['input']]]]}}" bind:input="__e" class="data-v-93cb1eb4" bind:__l="__l"></car-item></view>

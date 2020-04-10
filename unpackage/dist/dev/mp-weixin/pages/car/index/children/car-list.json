@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "car-item": "/pages/car/index/children/car-item"
+  },
+  "component": true
+}

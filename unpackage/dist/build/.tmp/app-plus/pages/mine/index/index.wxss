@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.shareBtn.data-v-107232a1 {
+  /* 分享  加入购物车按钮 */
+  width: 150rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  font-size: 20rpx;
+  text-align: center;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
+  color: #fff;
+  background: #63c753;
+}
+.nodata.data-v-107232a1 {
+  /* 没有更多占位图 */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150rpx;
+}
+.nodata view.data-v-107232a1 {
+    color: #999;
+}
+.nodata image.data-v-107232a1 {
+    width: 400rpx;
+    height: 400rpx;
+}
+.mine.data-v-107232a1 {
+  height: 310rpx;
+  background: #63c753;
+}
+.mine .mine-title.data-v-107232a1 {
+    padding-top: var(--status-bar-height);
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-size: 36rpx;
+}
+.mine .mine-info-wrap.data-v-107232a1 {
+    padding: 0 30rpx;
+}
+.mine .mine-info.data-v-107232a1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.mine .mine-info .mine-avatar.data-v-107232a1 {
+      width: 120rpx;
+      height: 120rpx;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      margin-right: 30rpx;
+}
+.mine .mine-info .mine-detail.data-v-107232a1 {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+}
+.mine .mine-info .mine-detail .mine-detail-top.data-v-107232a1 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.mine .mine-info .mine-detail .mine-detail-top .mine-name.data-v-107232a1 {
+          /* 字体样式 */
+          font-size: 34rpx;
+          color: #fff;
+          line-height: 1;
+}
+.mine .mine-info .mine-detail .mine-detail-top .mine-vip.data-v-107232a1 {
+          padding: 3rpx 5rpx;
+          -webkit-border-radius: 3rpx;
+                  border-radius: 3rpx;
+          font-style: italic;
+          line-height: 1;
+          /* 字体样式 */
+          font-size: 14rpx;
+          color: #fff;
+          line-height: 1;
+          background: #d8b768;
+          margin-left: 30rpx;
+}
+.mine .mine-info .mine-detail .mine-phone.data-v-107232a1 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 24rpx;
+}
+.mine .mine-info .mine-detail .mine-phone .phone-icon.data-v-107232a1 {
+          display: block;
+          width: 20rpx;
+          height: 30rpx;
+          margin-right: 10rpx;
+}
+.mine .mine-info .mine-detail .mine-phone .phone-number.data-v-107232a1 {
+          font-size: 24rpx;
+          line-height: 24rpx;
+          color: #cfeeca;
+}
+.mine .mine-info .mine-signIn.data-v-107232a1 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.mine .mine-info .mine-signIn .sing-btn.data-v-107232a1 {
+        width: 100rpx;
+        height: 50rpx;
+        text-align: center;
+        background: #2a9716;
+        -webkit-border-radius: 5rpx;
+                border-radius: 5rpx;
+        color: #fffeff;
+}
+.mine .mine-info .mine-signIn .sing-day.data-v-107232a1 {
+        margin-top: 15rpx;
+        /* 字体样式 */
+        font-size: 20rpx;
+        color: #fffeff;
+        line-height: 1;
+}
+.mine .mine-info-bottom.data-v-107232a1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 90rpx;
+    -webkit-border-radius: 10rpx;
+            border-radius: 10rpx;
+    background: #fff;
+}
+.mine .mine-info-bottom image.data-v-107232a1 {
+      width: 50rpx;
+      height: 50rpx;
+      margin-right: 18rpx;
+}
+.mine .mine-info-bottom > view.data-v-107232a1 {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0 20rpx 0 40rpx;
+}
+.mine .mine-info-bottom > view .number.data-v-107232a1 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        text-align: right;
+}
+.mine .mine-info-bottom .mine-discount.data-v-107232a1 {
+      border-right: 1rpx solid #f4f4f4;
+}
+.mine-info-bottom.data-v-107232a1 {
+  margin-top: 10rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.shareBtn.data-v-4ec96cc6 {
+  /* 分享  加入购物车按钮 */
+  width: 150rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  font-size: 20rpx;
+  text-align: center;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
+  color: #fff;
+  background: #63c753;
+}
+.nodata.data-v-4ec96cc6 {
+  /* 没有更多占位图 */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150rpx;
+}
+.nodata view.data-v-4ec96cc6 {
+    color: #999;
+}
+.nodata image.data-v-4ec96cc6 {
+    width: 400rpx;
+    height: 400rpx;
+}
+.mine-order.data-v-4ec96cc6 {
+  padding: 30rpx 30rpx 20rpx 30rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.mine-order .order-top.data-v-4ec96cc6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.mine-order .order-top .order-title.data-v-4ec96cc6 {
+      /* 字体样式 */
+      font-size: 30rpx;
+      color: #464646;
+      line-height: 1;
+}
+.mine-order .order-top .order-more.data-v-4ec96cc6 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.mine-order .order-top .order-more view.data-v-4ec96cc6 {
+        /* 字体样式 */
+        font-size: 24rpx;
+        color: #9b9b9b;
+        line-height: 1;
+}
+.mine-order .order-top .order-more image.data-v-4ec96cc6 {
+        width: 18rpx;
+        height: 26rpx;
+        margin-left: 15rpx;
+}
+.mine-order .order-list.data-v-4ec96cc6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.mine-order .order-list .order-item.data-v-4ec96cc6 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 130rpx;
+      margin-bottom: 10rpx;
+      width: 25%;
+}
+.mine-order .order-list .order-item .order-icon.data-v-4ec96cc6 {
+        position: relative;
+        width: 44rpx;
+        height: 40rpx;
+}
+.mine-order .order-list .order-item .order-icon image.data-v-4ec96cc6 {
+          width: 100%;
+          height: 100%;
+}
+.mine-order .order-list .order-item .order-icon .order-redDot.data-v-4ec96cc6 {
+          position: absolute;
+          right: -16rpx;
+          top: -16rpx;
+          width: 32rpx;
+          height: 32rpx;
+          line-height: 32rpx;
+          font-size: 24rpx;
+          text-align: center;
+          background: #fff;
+          border: 1rpx solid #63c753;
+          color: #63c753;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+}
+.mine-order .order-list .order-item text.data-v-4ec96cc6 {
+        margin-top: 24rpx;
+        /* 字体样式 */
+        font-size: 26rpx;
+        color: #999999;
+        line-height: 1;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mine-content.data-v-083fe2c2 {
+  padding: 0 30rpx;
+}
+.mine-content.data-v-083fe2c2 {
+  margin-top: 80rpx;
+}
+.mine-content.data-v-083fe2c2 {
+  margin-top: 80rpx;
+}
+

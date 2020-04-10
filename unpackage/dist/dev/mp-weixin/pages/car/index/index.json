@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "car-list": "/pages/car/index/children/car-list",
+    "car-pay": "/pages/car/index/children/car-pay"
+  }
+}

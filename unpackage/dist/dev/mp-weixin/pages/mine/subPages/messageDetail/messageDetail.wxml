@@ -1,0 +1,1 @@
+<view class="message data-v-4a708fc9"><view class="message-time data-v-4a708fc9">{{messageInfo.create_time}}</view><u-parse vue-id="1" content="{{messageInfo.content}}" class="data-v-4a708fc9" bind:__l="__l"></u-parse></view>

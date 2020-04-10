@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "钱包",
+  "usingComponents": {
+    "mine-score": "/components/mine-score"
+  }
+}

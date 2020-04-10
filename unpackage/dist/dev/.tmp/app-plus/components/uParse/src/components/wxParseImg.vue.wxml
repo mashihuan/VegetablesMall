@@ -1,0 +1,1 @@
+<template name="7bb7d4ae"><image mode="{{node.attr.mode}}" lazy-load="{{node.attr.lazyLoad}}" data-src="{{node.attr.src}}" src="{{node.attr.src}}" bindtap="handleProxy" bindload="handleProxy" data-eventid="{{'7bb7d4ae-0'}}" data-comkey="{{$k}}" class="_image M7bb7d4ae {{node.classStr}}" style=" {{newStyleStr || node.styleStr}}"></image></template>
